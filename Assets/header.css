@@ -1,0 +1,48 @@
+header {
+    padding: 1% 1% 1% 1%;
+    min-height: 100px;
+    background-color: var(--primaryColor);
+    color: var(--textColor);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: column
+}
+
+.logo {
+    align-self: center;
+}
+
+.socialblock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.socialblock li {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.fa-search {
+    margin-left: 3em;
+    margin-right: 15px;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar a {
+    color: var(--textColor);
+    font-size: 125%;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar a:hover {
+    color: var(--accentColor);
+}

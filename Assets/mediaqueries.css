@@ -1,5 +1,12 @@
 @media screen and (max-width: 768px) {
-    .socialblock {
+    .navcontainer {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .content {
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }

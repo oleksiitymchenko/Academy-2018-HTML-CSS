@@ -1,67 +1,24 @@
-                                * {
-                                    margin: 0;
-                                    padding: 0;
-                                    border: 1px solid black;
-                                    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-                                }
-                                
-                                 :root {
-                                    --primaryColor: #2196F3;
-                                    --textColor: #FFFFFF;
-                                    --primaryTextColor: #212121;
-                                    --divider: #BDBDBD;
-                                }
-                                
-                                header {
-                                    min-height: 100px;
-                                    background-color: var(--primaryColor);
-                                    color: var(--textColor);
-                                    display: flex;
-                                }
-                                
-                                .logo {
-                                    align-self: center;
-                                }
-                                
-                                .socialblock {
-                                    align-self: flex-start;
-                                }
-                                
-                                .navbar {
-                                    margin-top: 50px;
-                                }
-                                
-                                .navbar a {
-                                    color: var(--textColor);
-                                    text-decoration: none;
-                                    margin-right: 10px;
-                                }
-                                
-                                .socialblock {
-                                    width: 100%;
-                                }
-                                
-                                .fa-search {
-                                    margin-left: 5em;
-                                    margin-right: 10px;
-                                }
-                                
-                                .socialblock li {
-                                    margin-right: 5px;
-                                    display: inline-block;
-                                }
-                                
-                                .navcontainer {
-                                    display: flex;
-                                    flex-direction: column
-                                }
-                                
-                                .content {
-                                    max-width: 1200px;
-                                    display: grid;
-                                    grid-template-columns: 75% 25%;
-                                    margin: 25px auto 25px auto;
-                                    -webkit-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
-                                    -moz-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
-                                    box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
-                                }
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+:root {
+    --primaryColor: #2196F3;
+    --textColor: #FFFFFF;
+    --primaryTextColor: #212121;
+    --divider: #BDBDBD;
+    --accentColor: rgb(7, 8, 77);
+}
+
+.content {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 25px auto 25px auto;
+    -webkit-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 1);
+}
