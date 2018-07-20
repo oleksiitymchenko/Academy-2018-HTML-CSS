@@ -1,10 +1,22 @@
+.mobile-search {
+    float: left;
+    margin-top: 43px;
+    right: 0px;
+    display: inline-flex;
+    position: absolute;
+}
+
+.mobile-search .fa-search:hover {
+    color: var(--accentcolor);
+}
+
 .nav {
     /*  ширна произвольная, не стесняйтесь экспериментировать */
     width: 300px;
     /*   min-width: 300px;*/
     /* фиксируем и выставляем высоту панели на максимум */
     height: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     margin: 0;

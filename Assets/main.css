@@ -1,8 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid black;
+    /* border: 1px solid black;*/
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textColor);
+}
+
+a:hover {
+    color: var(--accentColor);
 }
 
 :root {

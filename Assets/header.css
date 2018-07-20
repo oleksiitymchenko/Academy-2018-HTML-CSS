@@ -28,9 +28,10 @@ header {
     cursor: pointer;
 }
 
-.socialblock li:hover {
+
+/*.socialblock li a:hover {
     color: var(--accentColor);
-}
+}*/
 
 .fa-search {
     margin-left: 3em;
