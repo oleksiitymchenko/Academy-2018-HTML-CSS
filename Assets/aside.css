@@ -2,6 +2,7 @@ aside {
     display: block;
     height: 100%;
     margin-top: 2em;
+    grid-area: 'aside';
 }
 
 .card-user-container {
