@@ -6,22 +6,3 @@ footer {
 .copyright {
     padding: 2.5% 0 0.5% 0.5%;
 }
-
-
-/*
-
-footer h4 {
-    align-self: center;
-    margin: auto;
-}
-
-.footer-links li {
-    display: inline-block;
-    padding: 5% 5px 5px 5px;
-    border-left: 1px solid var(--accentColor);
-    border-right: 1px solid var(--accentColor);
-}
-
-.content {
-    min-height: calc(100vh - 227px);
-}*/

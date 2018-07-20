@@ -77,19 +77,25 @@ aside {
 }
 
 .follow_button {
+    display: block;
     font-size: 125%;
     color: var(--textColor);
     background: var(--primaryColor);
     width: 100%;
-    padding: 10px 34% 10px 29%;
+    height: 50px;
+    padding-top: 15px;
 }
 
 .follow_button:hover {
-    background: #0b7dda;
+    background: var(--darkPrimaryColor);
     color: var(--textColor);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+form.formsearch {
+    display: block;
 }
 
 form.formsearch input[type=text] {
@@ -102,9 +108,6 @@ form.formsearch input[type=text] {
     background: #f1f1f1;
 }
 
-
-/* Style the submit button */
-
 form.formsearch button {
     margin: 5px 5px 5px 0;
     float: left;
@@ -115,12 +118,11 @@ form.formsearch button {
     font-size: 17px;
     border: 1px solid grey;
     border-left: none;
-    /* Prevent double borders */
     cursor: pointer;
 }
 
 form.formsearch button:hover {
-    background: #0b7dda;
+    background: var(--darkPrimaryColor);
 }
 
 .tags {
@@ -137,7 +139,7 @@ form.formsearch button:hover {
 }
 
 .tags a {
-    color: #767676;
+    color: var(--accentColor);
 }
 
 .tags a:hover {

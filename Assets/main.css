@@ -11,10 +11,11 @@
         
          :root {
             --primaryColor: #2196F3;
+            --darkPrimaryColor: #0b7dda;
             --textColor: #FFFFFF;
             --primaryTextColor: #212121;
             --divider: #BDBDBD;
-            --accentColor: #757575;
+            --accentColor: #767676;
         }
         
         a {
@@ -77,13 +78,10 @@
             -webkit-filter: contrast(100%);
             filter: contrast(100%);
             transform: scale(1.1);
-            /*-moz-transform: scale(1.1);
-            -o-transform: scale(1.1);*/
         }
         
         .card__content {
             display: flex;
-            /*flex: 1 1 auto;*/
             flex-direction: column;
             padding: 1rem;
         }
