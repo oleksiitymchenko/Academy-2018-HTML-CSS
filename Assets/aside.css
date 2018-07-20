@@ -1,5 +1,8 @@
+aside {
+    display: block;
+}
+
 .card-user-container {
-    margin-bottom: 25.5rem;
     background-color: #fefefe;
     color: #0a0a0a;
     overflow: hidden;
@@ -72,13 +75,47 @@
 }
 
 .follow_button {
-    color: var(--primaryColor);
-    padding: 2px;
+    font-size: 125%;
+    color: var(--textColor);
+    background: #2196F3;
+    padding: 10px 30% 10px 30%;
 }
 
 .follow_button:hover {
-    background-color: aliceblue;
+    background: #0b7dda;
+    color: var(--textColor);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+form.formsearch input[type=text] {
+    padding: 10px;
+    margin: 5px 0 5px 5px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 78%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.formsearch button {
+    margin: 5px 5px 5px 0;
+    float: left;
+    padding: 10px 0 10px 0;
+    width: 19%;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.formsearch button:hover {
+    background: #0b7dda;
 }

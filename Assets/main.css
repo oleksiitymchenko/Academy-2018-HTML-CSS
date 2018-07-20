@@ -1,8 +1,8 @@
         * {
             margin: 0;
             padding: 0;
-            border: 1px solid black;
-            font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+            border: 1px solid red;
+            font-family: 'Montserrat', sans-serif;
         }
         
         html {
@@ -144,4 +144,15 @@
             font-size: 0.875rem;
             line-height: 1.5;
             margin-bottom: 1.25rem;
+        }
+        
+        .cardinfo {
+            display: flex;
+            color: var(--accentColor);
+            display: inline-block;
+        }
+        
+        .cardinfo li {
+            margin-right: 5%;
+            font-family: 'Montserrat', sans-serif;
         }
