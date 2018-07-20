@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/mobileheader.css">
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/footer.css">
     <link rel="stylesheet" type="text/css" media="screen" href="Assets/mediaqueries.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="Assets/card.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/aside.css">
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/solid.css" integrity="sha384-S2gVFTIn1tJ/Plf+40+RRAxBCiBU5oAMFUJxTXT3vOlxtXm7MGjVj62mDpbujs4C" crossorigin="anonymous">
@@ -65,8 +65,45 @@
 
     <div class="content ">
         <aside>
-            <h2>Name</h2>
-            <h3>additional info</h3>
+            <div class="card-user-container">
+
+                <!--card's image-->
+                <div class="card-user-avatar">
+                    <img src="data:image/png;base64,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"
+                        alt="" class="user-image">
+                </div>
+
+                <!--user info name, bio and location-->
+                <div class="card-user-bio">
+                    <h4>Math Smith</h4>
+                    <p>Train driver, works at Ukrzaliznicya. Likes trains very much. </p>
+                    <span class="location"><span class="location-icon fa fa-map-marker"></span><span class="location-text">Lizogubova sloboda</span></span>
+                </div>
+
+                <!--card's socail icons-->
+                <div class="card-user-social">
+                    <ul class="menu">
+                        <a href="#">
+                            <li class="fab fa-twitter fa-lg"></li>
+                        </a>
+                        <a href="#">
+                            <li class="fab fa-dribbble fa-lg"></li>
+                        </a>
+                        <a href="#">
+                            <li class="fab fa-instagram fa-lg"></li>
+                        </a>
+                        <a href="#">
+                            <li class="fab fa-github fa-lg"></li>
+                        </a>
+                    </ul>
+                </div>
+
+                <!--card's follow button-->
+                <div class="card-user-button">
+                    <a href="#" class="follow_button"><strong>SUBSCRIBE</strong></a>
+                </div>
+            </div>
+
         </aside>
         <main>
             <ul class="cards">
@@ -77,16 +114,16 @@
                             <div class="card__title">
                                 The most huge fence
                             </div>
-                            <p class="card__text">The most huge fence is in Australia, not in China. You think I don`t like China? How can`t I love China, it rhymes with vagina.</p>
+                            <p class="card__text">The most huge fence is in Australia, not in China. You think I don`t like China? How can`t I love China, it rhymes with angina.</p>
                             <!-- <button class="btn btn--block card__btn">Button</button>-->
                         </div>
                     </div>
                 </li>
                 <li class="cards__item">
                     <div class="card">
-                        <div class="card__image card__image--fence"></div>
+                        <div class="card__image card__image--china"></div>
                         <div class="card__content">
-                            <div class="card__title">Title</div>
+                            <div class="card__title">China</div>
                             <p class="card__text">additasasssssssssssssdasdasdasdsdional info additional info additional info additional info additional info additional info additional info</p>
                             <!-- <button class="btn btn--block card__btn">Button</button>-->
                         </div>
@@ -94,19 +131,19 @@
                 </li>
                 <li class="cards__item">
                     <div class="card">
-                        <div class="card__image card__image--fence"></div>
+                        <div class="card__image card__image--australia"></div>
                         <div class="card__content">
-                            <div class="card__title">Title</div>
-                            <p class="card__text">additssssssssssssaaaaaaassional info additional info additional info additional info additional info additional info additional info</p>
+                            <div class="card__title">Australian population</div>
+                            <p class="card__text">False opinion has spread throughout the whole world. In Australia lives many people, not only kangaroos.</p>
                             <!--  <button class="btn btn--block card__btn">Button</button>-->
                         </div>
                     </div>
                 </li>
                 <li class="cards__item">
                     <div class="card">
-                        <div class="card__image card__image--fence"></div>
+                        <div class="card__image card__image--bird"></div>
                         <div class="card__content">
-                            <div class="card__title">Title</div>
+                            <div class="card__title">Птичка</div>
                             <p class="card__text">additionssssassssssssssssssssssssssssssssssssal info additional info additional info additional info additional info additional info additional info</p>
                             <!-- <button class="btn btn--block card__btn">Button</button>-->
                         </div>

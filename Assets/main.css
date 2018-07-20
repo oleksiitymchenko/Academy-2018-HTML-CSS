@@ -29,7 +29,7 @@
         .content {
             max-width: 1200px;
             display: grid;
-            grid-template-columns: 25% 75%;
+            grid-template-columns: 33% 67%;
             grid-template-areas: "aside main";
             align-items: center;
             margin: 25px auto 25px auto;
@@ -50,18 +50,10 @@
             max-width: 100%;
             vertical-align: middle;
         }
-        /*.cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}*/
         
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
             grid-gap: 20px;
             align-items: stretch;
         }
@@ -71,17 +63,6 @@
             padding: 1rem;
             width: 100%;
         }
-        /*    @media (min-width: 40rem) {
-            .cards__item {
-                width: 50%;
-            }
-        }
-        
-        @media (min-width: 56rem) {
-            .cards__item {
-                width: 33.3333%;
-            }
-        }*/
         
         .card {
             background-color: white;
@@ -136,6 +117,18 @@
         
         .card__image--fence {
             background-image: url(https://unsplash.it/800/600?image=59);
+        }
+        
+        .card__image--china {
+            background-image: url(https://www.carbonbrief.org/wp-content/uploads/2017/03/GettyImages-506296056-1550-1033-1550x804.jpg);
+        }
+        
+        .card__image--australia {
+            background-image: url(http://www.lostgirlsworld.com/wp-content/uploads/2011/08/Kangaroo-on-a-Beach.jpg);
+        }
+        
+        .card__image--bird {
+            background-image: url(http://vedmochka.net/media/k2/items/cache/cac344d9e98185e7505d4caa63af5304_XL.jpg);
         }
         
         .card__title {
