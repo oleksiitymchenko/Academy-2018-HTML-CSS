@@ -5,6 +5,14 @@
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+:root {
+    --primaryColor: #2196F3;
+    --textColor: #FFFFFF;
+    --primaryTextColor: #212121;
+    --divider: #BDBDBD;
+    --accentColor: #757575;
+}
+
 a {
     text-decoration: none;
     color: var(--textColor);
@@ -12,14 +20,6 @@ a {
 
 a:hover {
     color: var(--accentColor);
-}
-
-:root {
-    --primaryColor: #2196F3;
-    --textColor: #FFFFFF;
-    --primaryTextColor: #212121;
-    --divider: #BDBDBD;
-    --accentColor: #757575;
 }
 
 .content {
