@@ -79,7 +79,7 @@ aside {
 .follow_button {
     font-size: 125%;
     color: var(--textColor);
-    background: #2196F3;
+    background: var(--primaryColor);
     width: 100%;
     padding: 10px 34% 10px 29%;
 }
@@ -110,7 +110,7 @@ form.formsearch button {
     float: left;
     padding: 10px 0 10px 0;
     width: 19%;
-    background: #2196F3;
+    background: var(--primaryColor);
     color: white;
     font-size: 17px;
     border: 1px solid grey;

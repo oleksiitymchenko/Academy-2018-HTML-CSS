@@ -1,7 +1,10 @@
 footer {
     background-color: var(--primaryColor);
-    height: 50px;
     color: var(--textColor);
+}
+
+.copyright {
+    padding: 2.5% 0 0.5% 0.5%;
 }
 
 
