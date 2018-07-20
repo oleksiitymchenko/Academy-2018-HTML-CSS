@@ -28,6 +28,12 @@ header {
     cursor: pointer;
 }
 
+.socialblock li:hover {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
 .fa-search {
     margin-left: 3em;
     margin-right: 15px;
