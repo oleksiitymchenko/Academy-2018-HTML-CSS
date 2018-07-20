@@ -1,5 +1,7 @@
 aside {
     display: block;
+    height: 100%;
+    margin-top: 2em;
 }
 
 .card-user-container {
@@ -13,7 +15,7 @@ aside {
 .card-user-container .card-user-avatar .user-image {
     display: block;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     width: 11.875rem;
     height: 11.875rem;
     padding: 0.9375rem;
@@ -78,7 +80,8 @@ aside {
     font-size: 125%;
     color: var(--textColor);
     background: #2196F3;
-    padding: 10px 30% 10px 30%;
+    width: 100%;
+    padding: 10px 34% 10px 29%;
 }
 
 .follow_button:hover {
@@ -91,11 +94,11 @@ aside {
 
 form.formsearch input[type=text] {
     padding: 10px;
-    margin: 5px 0 5px 5px;
+    margin: 5px 0 5px 5%;
     font-size: 17px;
     border: 1px solid grey;
     float: left;
-    width: 78%;
+    width: 70%;
     background: #f1f1f1;
 }
 
@@ -118,4 +121,59 @@ form.formsearch button {
 
 form.formsearch button:hover {
     background: #0b7dda;
+}
+
+.tags {
+    font-style: italic;
+    padding: 5px;
+    margin-top: 2em;
+    align-content: center;
+    margin-left: 5%;
+}
+
+.tags li {
+    padding-right: 3px;
+    display: inline-block;
+}
+
+.tags a {
+    color: #767676;
+}
+
+.tags a:hover {
+    color: var(--primaryColor);
+}
+
+.commentgrid {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    grid-template-rows: 60px 60px;
+    grid-template-areas: 'avatar comment';
+    grid-gap: 5px;
+}
+
+.avatar {
+    grid-area: 'avatar';
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.comment {
+    grid-area: 'comment';
+}
+
+.comment p {
+    width: 90%;
+    height: 40%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.avatar,
+.comment {
+    margin-bottom: 5px;
 }
