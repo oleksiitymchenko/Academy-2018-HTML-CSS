@@ -78,9 +78,10 @@ aside {
 
 .follow_button {
     display: block;
-    font-size: 125%;
+    font-size: 1.2em;
     color: var(--textColor);
     background: var(--primaryColor);
+    border: 1px solid grey;
     width: 100%;
     height: 50px;
     padding-top: 15px;
@@ -96,29 +97,40 @@ aside {
 
 form.formsearch {
     display: block;
+    width: 100%;
+}
+
+form.formsearch input[type=text],
+form.formsearch button {
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
 }
 
 form.formsearch input[type=text] {
     padding: 10px;
     margin: 5px 0 5px 5%;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
     width: 70%;
     background: #f1f1f1;
+    display: block;
+    height: 40px;
 }
 
 form.formsearch button {
-    margin: 5px 5px 5px 0;
-    float: left;
-    padding: 10px 0 10px 0;
-    width: 19%;
+    display: block;
+    height: 40px;
+    margin: 5px 5% 5px 0;
+    padding: 10px;
+    width: 20%;
     background: var(--primaryColor);
     color: white;
-    font-size: 17px;
-    border: 1px solid grey;
     border-left: none;
     cursor: pointer;
+}
+
+form.formsearch button {
+    display: block;
+    float: left;
 }
 
 form.formsearch button:hover {
